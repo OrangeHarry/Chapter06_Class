@@ -10,8 +10,12 @@ public class Refrigerator {
 		System.out.println("냉장고 문은 닫힌다");
 	}
 
-	boolean isDoorOpen(boolean x) {
-		System.out.println(x);
+	boolean isDoorOpen(boolean isDoorOpen) {
+		if (isDoorOpen == true) {
+			System.out.println("냉장고문의 기능이 정상입니다.");
+			return true;
+		}
+		System.out.println("냉장고문 고장!!!!");
 		return false;
 	}
 
