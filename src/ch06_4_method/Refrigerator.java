@@ -28,9 +28,9 @@ public class Refrigerator {
 		return name;
 	}
 
-	int temperature(int x) {
-		System.out.println(x + "µµ");
-		return x;
+	int temperature(int temperature) {
+		System.out.println(temperature + "µµ");
+		return temperature;
 	}
 
 }
