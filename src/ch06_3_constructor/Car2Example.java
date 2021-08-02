@@ -16,7 +16,7 @@ public class Car2Example {
 		Car2 car3 = new Car2("자가용", "빨강");
 		System.out.println("car3.company = " + car3.company);
 		System.out.println("car3.model = " + car3.model);
-//		System.out.println("car3.color = " + car3.color);
+		System.out.println("car3.color = " + car3.color);
 		System.out.println("====================================");
 
 		Car2 car4 = new Car2("택시", "검정", 200);
