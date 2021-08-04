@@ -15,5 +15,6 @@ public class CarExample {
 			myCar.setStop(true);
 		}
 		System.out.println("현재속도 = " + myCar.getSpeed());
+//		System.out.println("stop 했니?? "+myCar.isStop());
 	}
 }

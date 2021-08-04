@@ -41,5 +41,4 @@ public class A {
 
 	private void method3() {
 	}
-
 }
